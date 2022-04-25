@@ -1,0 +1,27 @@
+{
+  "type": "module",
+  "name": "MarinaMarin_EntregaClase8",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "git": "^0.1.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarinaMarin28/EntregaClase8.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MarinaMarin28/EntregaClase8/issues"
+  },
+  "homepage": "https://github.com/MarinaMarin28/EntregaClase8#readme",
+  "description": ""
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tercera_Entrega_MarinaMarin</title>
+</head>
+<body>
+    <br>
+    <h1>Carga de Producto</h1>
+    <form action="/api/productos/" method="post">
+        <label>Titulo Producto: <input type="text" name="title" required/></label>
+        <label>Precio Producto: <input type="text" name="price" required/></label>
+        <label>Imagen Producto: <input type="text" name="thumbnail" required/></label>
+        <button>Cargar</button>
+    </form>
+    <hr>
+    <h1>Todos los Productos</h1>
+        <form action="/api/productos/" method="get">
+            <button>Listar</button>
+        </form>
+</body>
+</html>
